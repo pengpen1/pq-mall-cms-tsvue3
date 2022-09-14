@@ -30,4 +30,9 @@ export default defineComponent({
   align-content: center;
   align-items: center;
 }
+@media screen and (min-width: 1800px) {
+  .login {
+    min-width: 500px;
+  }
+}
 </style>

@@ -5,7 +5,7 @@ if (process.env.NODE_ENV === 'development') {
   BASE_URL = '/api'
   BASE_NAME = ''
 } else if (process.env.NODE_ENV === 'production') {
-  BASE_URL = ''
+  BASE_URL = 'http://152.136.185.210:4000/'
   BASE_NAME = ''
 } else {
   BASE_URL = ''
